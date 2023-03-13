@@ -4,6 +4,14 @@ body {
     margin-top: 12px;
     overflow-x: hidden;
   }
+@viewport {
+    width: device-width;
+    zoom: 1.1;
+    min-zoom: 0.4;
+    max-zoom: 2;
+    user-zoom: fixed;
+  }
+
   a {
     text-decoration: none;
     color: #000;
