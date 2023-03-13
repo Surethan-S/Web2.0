@@ -1,0 +1,331 @@
+body{
+    margin: 0;
+}
+@viewport {
+    width: device-width;
+    zoom: 1.1;
+    min-zoom: 0.4;
+    max-zoom: 2;
+    user-zoom: fixed;
+    }
+form {
+    background-color: white;
+    padding: 2% 4%;
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+}
+.IdOt-img {
+    margin: 0;
+    padding: 12px;
+    background-color: #c7c1c140;
+    text-align: center;
+} 
+.heading {
+    width: 100px;
+    height: 50px;
+}
+.main {
+    background-color: #c7c1c140;
+    padding: 1% 6%;
+    float: left;
+    box-sizing: border-box;
+    width: 100%;
+}
+.left-container {
+    width: calc(62% - 40px); 
+    float: left;
+    margin-right: 45px;
+}
+
+.line1 {
+    border: 1px solid #7a747482;
+    border-radius: 8px;
+    width: 100%;
+    float: left;
+    margin-bottom: 23px;
+}
+.letter {
+    margin: 0;
+    float: left;
+    padding: 13px 0px 0px 20px;
+    box-sizing: border-box;
+}
+.loginul {
+    padding: 0;
+    margin-left: 64px;
+    width: calc(75% - 54px);
+    float: left;
+}
+.tick-mark {
+    font-family: wingdings;
+     font-size: 150%; 
+    padding-left: 16px;
+}
+.shopadd {
+    width: -webkit-fill-available;
+    padding-bottom: 8px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.btn {
+    padding: 8px;
+    border: rgb(244, 237, 237);
+    background-color: rgb(238, 228, 228);
+    border-radius: 6px;
+    margin-top: 28px;
+    cursor: pointer;
+}
+.payment {
+    width: 94%;
+    background-color: #c7c1c140;
+    border-radius: 8px;
+    padding:14px;
+    float: left;
+    padding-left: 34px;
+}
+ul{
+    list-style: none;
+}
+
+.list1 {
+    float: left;
+    padding-left: 17px;
+}
+
+.card-number {
+    margin: 0;
+}
+
+.card-detials-li{
+    float: left;
+}
+.list3{
+    float: left;
+    padding-left: 17px;
+}
+.list4{
+    float: left;
+}
+.card-details {
+    width: calc(100%-25px);
+    float: lee;
+    margin-top: 16px;
+    margin-left: 25px;
+    float: left;
+}
+
+.card-number-input {
+    padding: 7px;
+    width: 38%;
+    margin-top: 15px;
+}
+.card-detials-ul {
+    float: left;
+    width: -webkit-fill-available;
+    padding: 0;
+}
+.valid-date {
+    float: left;
+    margin: 0;
+}
+
+.cvv {
+    float: left;
+    margin: 0;
+    padding-left: 24px;
+    box-sizing: border-box;
+}
+
+.card-head {
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+}
+
+select {
+    border-width: inherit;
+    width: 63px;
+    height: 28px;
+}
+
+
+.cvv-btn {
+    width: 75px;
+    border-radius: 5px;
+    border: none;
+    height: 23px;
+}
+
+.pay-btn {
+    background-color: #444343e6;
+    color: white;
+    height: 28px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 5px 15px;
+}
+.p {
+    margin-top:18%;
+}
+.card-detials-li1 {
+    float: left;
+    height: 28px;
+    border-width: 1px;
+    border-color: #484848;
+    border-style: solid;
+}
+.card-detials-li {
+    float: left;
+    height: 28px;
+    border-width: 1px;
+    margin-left: 20px;
+    border-color: #484848;
+    border-style: solid;
+}
+
+.cvv-inp {
+    height: 23px;
+    border-radius: 5px;
+    width: 89px;
+}
+/*.net-banking {
+    float: left;
+    width: -webkit-fill-available;
+    padding: 0;
+}
+.walet{
+    float: left;
+    width: -webkit-fill-available;
+    padding: 0;
+
+}*/
+.right-container {
+    float: left;
+    border-radius: 5px;
+    width: 37%;
+    border: 1px solid #7a777773;
+    margin-top: 9%;
+}
+
+.rght-heading {
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.order-det {
+    float: left;
+    padding-left: 30px;
+    width: 100%;
+    margin: 24px 0px 41px;
+    position: relative;
+    box-sizing: border-box;
+}
+.detials {
+    float: left;
+    padding-left: 39px;
+    box-sizing: border-box;
+}
+
+.pic {
+    float: left;
+}
+
+img {
+    border-radius: 7px;
+}
+
+h3.prd-name {
+    margin: 0;
+}
+
+.prd-size-color {
+    float: left;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 8px 9px 0px 0px;
+}
+
+.prd-size-color-bold {
+    margin: 0;
+    float: left;
+}
+
+.prd-size-color-bold {
+    padding: 8px 23px 0px 0px;
+    font-weight: 900;
+}
+
+.prd-price {
+    margin: 0;
+    float: left;
+    padding: 8px 5px 0px 0px;
+    box-sizing: border-box;
+}
+
+.prd-qty {
+    margin: 0;
+    float: left;
+    padding: 8px 5px 0px 0px;
+    box-sizing: border-box;
+}
+
+
+.order-det::before {
+    content: "";
+    position: absolute;
+    border-top: 1px solid #7a777773;
+    top: -22px;
+    width: 72%;
+}
+.delivery-discount {
+    float: left;
+    width: 100%;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.del-dis {
+    padding: 0;
+    float: left;
+    width: 65%;
+    margin: 0px;
+}
+
+.del-dis-li {
+    padding-bottom: 15px;
+}
+
+.del-dis-amt {
+    float: left;
+    margin: 0;
+}
+
+.del-dis-amt-li {
+    padding-bottom: 15px;
+}
+
+.price-bold {
+    margin: 0;
+}
+
+.total {
+    float: left;
+    padding-left: 18px;
+    margin: 0;
+}
+
+.total-price {
+    margin: 0;
+    float: right;
+    padding-right: 18px;
+}
+.total-price-cont {
+    float: left;
+    background-color: #7463631c;
+    border-radius: 8px;
+    width: 91%;
+    padding:22px 0px;
+    margin-bottom: 16px;
+}
