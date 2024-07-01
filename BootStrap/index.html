@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BusyBees</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="BB_Logo-removebg-preview.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bondi.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script src="./js/main.js"></script>
+    <style>
+        .hero {
+            background: url('./pic1.jpg') no-repeat center center;
+            background-size: cover;
+            height: 500px;
+            color: white;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .hero h1, .hero p {
+            position: relative;
+            z-index: 1;
+            color: #fff;
+        }
+        .card:hover, .portfolio-img:hover {
+            animation: pulse 1s infinite;
+        }
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body class="bg-light text-dark">
+    <nav class="navbar navbar-expand-lg sticky-top bg-primary">
+        <div class="container">
+          <a class="navbar-brand" href="#" >
+                <img src="cropped-BusyBees-1-1-removebg-preview.png" alt="" width="400px" height="50px"/>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link p-2 p-lg-3 active" aria-current="page" href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-2 p-lg-3" href="#service">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-2 p-lg-3" href="#team">Our Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-2 p-lg-3" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-2 p-lg-3" href="#contact">Contract</a>
+              </li>
+            </ul>
+            <div class="search ps-3 pe-3 d-none d-lg-block">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="landing d-flex justify-content-center align-items-center bg-primary">
+        <div class="text-center text-light">
+          <h1>Taste the Creativity</h1>
+          <p class="fs-5 text-white-50 mb-4">
+            Make Your Projects Buzz With Us...!
+          </p>
+          <button class="login"><a href="#about" class="text-decoration-none text-white">Get Started</a></button>
+        </div>
+      </div>
+    <div class="portfolio pt-5" id="about">
+        <div class="container">
+          <div class="main-title text-center mt-5 mb-5 position-relative">
+            <img class="mb-4" src="images/title.png" alt="" />
+            <h2 class="">Some Stuff About Us</h2>
+            <p class="text-black-50 text-uppercase">THE GREAT TEAM</p>
+          </div>
+          <p class="description text-black-50 text-center mb-5 m-auto">
+            We are a team of dedicated professionals committed to helping you achieve your goals. Our expertise spans various industries, ensuring that we can provide tailored solutions to meet your needs. From strategy to execution, we are with you every step of the way.<br><br><br><br></p>
+          <div class="row align-items-center">
+            <div class="col-lg-4 mb-4 text-center text-md-start">
+              <div class="text">
+                <h2>Services</h2>
+                <p class="text-black-50 fs-6">
+                    Our web developmet services help you achieve your business objectives with expert advice and strategic planning.
+                </p>
+                <p class="text-black-50 fs-6">
+                    We provide App development services to build robust and scalable solutions tailored to your needs.
+                </p>
+                <p class="text-black-50 fs-6">
+                    Our marketing services help you reach your target audience and achieve your business goals with effective strategies.
+                </p>
+                <button class="login mt-3">Order Me One</button>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="img">
+                <img class="img-fluid" src="BB_Ads2.jpg" alt="" width="700px" height="700px"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="features text-center pt-5 pb-5" id="service">
+        <div class="container">
+          <div class="main-title mt-5 mb-5 position-relative">
+            <img class="mb-4" src="images/title.png" alt="" />
+            <h2 class="">We are Good at</h2>
+            <p class="text-black-50 text-uppercase">Some Of These Stuff Under</p>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-4">
+              <div class="feat">
+                <div class="icon-holder position-relative">
+                  <i class="fa-solid fa-1 position-absolute bottom-0 number"></i>
+                  <i
+                    class="fa-solid fa-pencil fa-4x position-absolute bottom-0 icon"
+                  ></i>
+                </div>
+                <h4 class="text-uppercase mb-3 mt-3">Web Development</h4>
+                <p class="text-black-50 lh-lg">
+                    Our web developmet services help you achieve your business objectives with expert advice and strategic planning.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="feat">
+                <div class="icon-holder position-relative">
+                  <i class="fa-solid fa-2 position-absolute bottom-0 number"></i>
+                  <i
+                    class="fa-solid fa-desktop fa-4x position-absolute bottom-0 icon"
+                  ></i>
+                </div>
+                <h4 class="text-uppercase mb-3 mt-3">App Development</h4>
+                <p class="text-black-50 lh-lg">
+                    We provide App development services to build robust and scalable solutions tailored to your needs.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="feat">
+                <div class="icon-holder position-relative">
+                  <i class="fa-solid fa-3 position-absolute bottom-0 number"></i>
+                  <i
+                    class="fa-solid fa-plug fa-4x position-absolute bottom-0 icon"
+                  ></i>
+                </div>
+                <h4 class="text-uppercase mb-3 mt-3">Graphic Design</h4>
+                <p class="text-black-50 lh-lg">
+                    Our Graphic Design services help you reach your target audience and achieve your business goals with effective strategies.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/jquery/jquery-migrate.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/counterup/counterup.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="lib/lightbox/js/lightbox.min.js"></script>
+      <section class="team" style="margin-top: 7rem;">
+        <h1 class="heading" style="margin-top: -1.5rem;" id="team">our team</h1>
+        <p></p>
+        <div class="row"  style="font-size: 62.5%;">
+            <div class="card">
+                <div class="image">
+                    <img src="Surethan.jpg" alt="Team member 1">
+                </div>
+                <div class="info">
+                    <h3>SURETHAN</h3>
+                    <span>Web Developer</span>
+                    <div class="icons">
+                        <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+                        <a href="https://twitter.com/login" class="fab fa-twitter"></a>
+                        <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+                        <a href="https://www.linkedin.com/" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+                <div class="image">
+                    <img src="Madhu.jpg" alt="Team member 1">
+                </div>
+                <div class="info">
+                    <h3>Madhumitha</h3>
+                    <span>Mobile Developer</span>
+                    <div class="icons">
+                        <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+                        <a href="https://twitter.com/login" class="fab fa-twitter"></a>
+                        <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+                        <a href="https://www.linkedin.com/" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+                <div class="image">
+                    <img src="Rabana.jpg" alt="Team member 1">
+                </div>
+                <div class="info">
+                    <h3>Rabana</h3>
+                    <span>Graphic Designer</span>
+                    <div class="icons">
+                        <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+                        <a href="https://twitter.com/login" class="fab fa-twitter"></a>
+                        <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+                        <a href="https://www.linkedin.com/" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+                <div class="image">
+                    <img src="Pooveesh.jpg" alt="Team member 1">
+                </div>
+                <div class="info">
+                    <h3>Pooveesh</h3>
+                    <span>Web Designer</span>
+                    <div class="icons">
+                        <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+                        <a href="https://twitter.com/login" class="fab fa-twitter"></a>
+                        <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+                        <a href="https://www.linkedin.com/" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      
+      
+    <div class="techs pt-5 pb-5 text-center">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
+              <img class="img-fluid" src="images/tech-1.png" alt="" />
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
+              <img class="img-fluid" src="images/tech-2.png" alt="" />
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
+              <img class="img-fluid" src="images/tech-3.png" alt="" />
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
+              <img class="img-fluid" src="images/tech-4.png" alt="" />
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
+              <img class="img-fluid" src="images/tech-1.png" alt="" />
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
+              <img class="img-fluid" src="images/tech-2.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project text-light pt-5 pb-5 text-center">
+        <div class="container pt-5 pb-5">
+          <h2>Start Your Project Now</h2>
+          <p class="text-white-50">
+            Leave your description and we start the engine.Don't worry,you can
+            cancel anytime
+          </p>
+          <div class="d-flex justify-content-center mt-5">
+            <button class="login mt-3">START PROJECT</button>
+          </div>
+        </div>
+      </div>
+      <div class="plog pt-5 pb-5">
+        <div class="container">
+          <div class="main-title text-center mt-5 mb-5 position-relative">
+            <img class="mb-4" src="images/title.png" alt="" />
+            <h2 class="">Read Our Blog</h2>
+            <p class="text-black-50 text-uppercase">NEW STORIES</p>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-4">
+              <div class="card">
+                <img src="images/blog-1.jpg" class="card-img-top" alt="" />
+                <div class="card-body">
+                  <span class="text-black-50">Jun 15, 2024</span>
+                  <h5 class="card-title">web3 decentralized apps</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card">
+                <img src="images/blog-2.jpg" class="card-img-top" alt="" />
+                <div class="card-body">
+                  <span class="text-black-50">Jun 22, 2024</span>
+                  <h5 class="card-title">Global female robotics nonprofit plants roots in San Antonio</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card">
+                <img src="images/blog-3.jpg" class="card-img-top" alt="" />
+                <div class="card-body">
+                  <span class="text-black-50">Jun 19, 2024</span>
+                  <h5 class="card-title">Brandwatch 2024 digital marketing marketers embracing ai</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center mt-5">
+            <button class="login mt-3">MORE STORIES</button>
+          </div>
+        </div>
+      </div>
+      <section class="faq">
+        <h1 class="heading" style="margin-top: -2rem; color: #00bfff;" id="faq">FAQ</h1>
+        <div class="row">
+            <div class="accordion-container">
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <span>+</span>
+                        <h3>How much will it cost?</h3>
+                    </div>
+                    <div class="accordion-body">
+                        <p>To get a better idea of the cost of what you want to build, give us a quick phone call. We’ll ask you a few questions about the nature of the site, what sort of interactivity the site will have, your graphic design needs, etc. 
+                            Then we’ll be able to give you a ballpark figure. 
+                            If you’re still interested, we’ll come to your place of business and come up with a firm quote.</p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <span>+</span>
+                        <h3>How long it takes to design?</h3>
+                    </div>
+                    <div class="accordion-body">
+                        <p>The time limit of any assignment is normally dictated by the client. If you have any time limit in mind we will attempt to assemble it for you. 
+                            The main general delay in the making of a website is waiting for the content of the pages to be sent to us by the client.</p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <span>+</span>
+                        <h3>How do I associate with IT Company?</h3>
+                    </div>
+                    <div class="accordion-body">
+                        <p>The process begins when you contact us with your requirements. We analyze your requirements and respond to you. 
+                            On the basis of the further discussion, you can choose an engagement model that suits you the best. 
+                            After that, we begin the process of development.</p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <span>+</span>
+                        <h3>Can you help my current site look more professional?</h3>
+                    </div>
+                    <div class="accordion-body">
+                        <p>Yes. Give us your requirements and we have experienced expertise to help you give a 
+                            new professional look that really wonders!</p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <span>+</span>
+                        <h3>When do I pay?</h3>
+                    </div>
+                    <div class="accordion-body">
+                        <p>For most projects, equal payments are made at the start, midway, and the end of the project, but we can work with you to set up a schedule that meets your needs. 
+                            We understand that this is a big investment and want to help you budget for the expense in whatever way possible.
+                            We accept checks, PayPal, and all major credit cards.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="section">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2>Contact Us</h2>
+                <p>Get in touch with us</p>
+            </div>
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block text-dark">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="footer pt-5 pb-5 text-white-50 text-center text-md-start bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="info mb-5">
+              <img src="BusyBees__1_-modified-removebg-preview.png" alt="" class="mb-4" width="150px" height="50px"/>
+              <p class="mb-5">
+                Taste the Creativity <br>Make Your Projects Buzz With Us...!
+              </p>
+              <div class="copyright">
+                Created By <span>BusyBees</span>
+                <div>&copy; 2023 - <span>BusyBees Inc</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-2">
+            <div class="links">
+              <h5 class="text-light">Links</h5>
+              <ul class="list-unstyled lh-lg">
+                <li>Home</li>
+                <li>Our Services</li>
+                <li>Portfolio</li>
+                <li>Testimonials</li>
+                <li>Support</li>
+                <li>Terms And Condition</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-2">
+            <div class="links">
+              <h5 class="text-light">About Us</h5>
+              <ul class="list-unstyled lh-lg">
+                <li>About Us</li>
+                <li>Blog</li>
+                <li>Contact Us</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="contact">
+              <h5 class="text-light">Contact Us</h5>
+              <p class="lh-lg mt-3 mb-5">
+                Get in touch with us via mail phone.We are waiting for your call
+                or message
+              </p>
+              <a href="#" class="login d-flex justify-content-center w-100 ps-5 pe-5 text-decoration-none text-white">BusyBees_Inc@gmail.com</a>
+              <ul class="d-flex mt-5 justify-content-center list-unstyled gap-5">
+                <li>
+                  <a class="d-block text-light" href="#"
+                    ><i
+                      class="fa-brands fa-facebook fa-lg facebook rounded-circle p-2"
+                    ></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="d-block text-light" href="#"
+                    ><i
+                      class="fa-brands fa-twitter fa-lg twitter rounded-circle p-2"
+                    ></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="d-block text-light" href="#"
+                    ><i
+                      class="fa-brands fa-linkedin fa-lg linkedin rounded-circle p-2"
+                    ></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="d-block text-light" href="#"
+                    ><i
+                      class="fa-brands fa-youtube fa-lg youtube rounded-circle p-2"
+                    ></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bondi.js"></script>
+    <script src="js/all.min.js"></script>
+</body>
+</html>
